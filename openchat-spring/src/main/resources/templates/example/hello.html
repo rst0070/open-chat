@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/sockjs-client@1/dist/sockjs.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" th:href="@{/example/hello.css}"/>
+        <script th:src="@{/example/hello.js}"></script>
+    </head>
+    <body>
+        <div id="log"></div>
+        <div id="input-box">
+            <input id="message-in" type="text" /><br/>
+            <button id="button">send</button>
+        </div>
+    </body>
+</html>
